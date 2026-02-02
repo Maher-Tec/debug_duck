@@ -5,13 +5,13 @@ import 'package:debug_duck/core/duck_config.dart';
 
 void main() {
   testWidgets('DuckOverlay renders without Directionality error', (WidgetTester tester) async {
-    final config = DebugDuckConfig(showOverlay: true);
+    const config = DebugDuckConfig(showOverlay: true);
     
     // We intentionally do NOT wrap this in a MaterialApp or WidgetApp
     // to simulate the overlay context where Directionality might be missing.
     // However, since DuckOverlay produces a Positioned widget, it needs to be inside a Stack.
     await tester.pumpWidget(
-      Stack(
+      const Stack(
         children: [
           DuckOverlay(config: config),
         ],

@@ -14,10 +14,10 @@ class DebugDuck extends StatefulWidget {
   final Widget? child; // If used as a wrapper
 
   const DebugDuck({
-    Key? key,
+    super.key,
     this.message,
     this.child,
-  }) : super(key: key);
+  });
 
   // --- Static Configuration ---
   static DebugDuckConfig _config = const DebugDuckConfig();

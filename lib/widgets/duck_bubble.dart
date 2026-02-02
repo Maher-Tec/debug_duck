@@ -5,10 +5,10 @@ class DuckBubble extends StatelessWidget {
   final VoidCallback? onClose;
 
   const DuckBubble({
-    Key? key,
+    super.key,
     required this.message,
     this.onClose,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -22,7 +22,7 @@ class DuckBubble extends StatelessWidget {
           borderRadius: BorderRadius.circular(12),
           boxShadow: [
             BoxShadow(
-              color: Colors.black.withOpacity(0.1),
+              color: Colors.black.withValues(alpha: 0.1),
               blurRadius: 8,
               offset: const Offset(0, 2),
             ),

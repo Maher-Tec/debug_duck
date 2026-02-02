@@ -9,7 +9,7 @@ import 'duck_bubble.dart';
 class DuckOverlay extends StatefulWidget {
   final DebugDuckConfig config;
 
-  const DuckOverlay({Key? key, required this.config}) : super(key: key);
+  const DuckOverlay({super.key, required this.config});
 
   @override
   State<DuckOverlay> createState() => _DuckOverlayState();
