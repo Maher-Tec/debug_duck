@@ -1,0 +1,6 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # Add your own rules here
+    avoid_print: false # We use print for debugging in this package
