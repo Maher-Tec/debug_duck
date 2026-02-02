@@ -1,5 +1,9 @@
 # 🦆 debug_duck
 
+<p align="center">
+  <img src="assets/images/logo.png" width="200" alt="Debug Duck Logo">
+</p>
+
 [![Pub Version](https://img.shields.io/pub/v/debug_duck)](https://pub.dev/packages/debug_duck)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Flutter Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS%20%7C%20Web%20%7C%20Windows%20%7C%20macOS%20%7C%20Linux-blue.svg)](https://flutter.dev)
@@ -11,6 +15,10 @@
 ---
 
 ## ✨ Why debug_duck?
+
+<p align="center">
+  <img src="assets/images/roast.png" width="600" alt="Debug Duck Roast">
+</p>
 
 We've all been there. You stare at the code. The code stares back. You say, "This should work." The console says, "Null check operator used on a null value."
 
