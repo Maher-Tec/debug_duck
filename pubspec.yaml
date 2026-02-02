@@ -1,6 +1,6 @@
 name: debug_duck
 description: A professional debugging assistant with zero coding skills and strong opinions.
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/Maher-Tec/debug_duck
 
 environment:
